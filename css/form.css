@@ -1,0 +1,44 @@
+.form__fieldset {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #c79600;
+}
+
+.form__positions {
+    width: 100%;
+    max-width: 100px;
+    display: inline-block;
+}
+
+.form__box {
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid #c79600;
+    background-color: azure;
+}
+
+.form__button {
+    width: 30%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #c79600;
+}
+
+.form__button:hover {
+    background-color: #c79600;
+}
+
+.form__button:active {
+    background-color: #f2dc9a;
+
+}
+
+.form__button--clearButton {
+    width: 65%;
+    float: right;
+}

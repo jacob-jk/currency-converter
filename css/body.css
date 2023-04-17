@@ -1,0 +1,7 @@
+.body {
+    max-width: 500px;
+    margin: 25px auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 0, 0, 0.811);
+    color: azure;
+}
