@@ -4,6 +4,7 @@
     padding: 10px;
     border-radius: 10px;
     border: 2px solid #c79600;
+    background: center / cover no-repeat url("../currencies.jpg");
 }
 
 .form__positions {
