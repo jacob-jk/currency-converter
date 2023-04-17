@@ -1,4 +1,4 @@
-# currency-converter
+# Currency converter
 
 ![currencies](https://cdn.dribbble.com/users/71374/screenshots/4724235/coins.gif)
 
