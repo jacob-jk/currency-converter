@@ -23,8 +23,6 @@ const rateCalculator = () => {
         });
 }
 
-rateCalculator();
-
 const updateOutcomeText = (outcome) => {
     const outcomeElement = document.querySelector(".js-outcome");
     outcomeElement.innerText = outcome.toFixed(2);
@@ -49,6 +47,8 @@ const init = () => {
     
     formElement.addEventListener("submit", (onFormSubmit)
     );
+
+rateCalculator();
 }
 
 init();
