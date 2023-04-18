@@ -6,6 +6,12 @@
 
 Use the originally designed calculator converting one currency to another! By selecting wanted currency the calculator shows its current price and later on allows to esitmate the amount of exchanged money.
 
+![app](screenshot.png)
+
+## Features
+
+ES6+
+
 ### Demo 
 
 https://jacob-jk.github.io/currency-converter/
