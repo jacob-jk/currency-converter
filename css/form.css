@@ -4,7 +4,7 @@
     padding: 10px;
     border-radius: 10px;
     border: 2px solid #c79600;
-    background: center / cover no-repeat url("../currencies.jpg");
+    background-color: rgba(0, 0, 0, 0.811);
 }
 
 .form__positions {
@@ -24,7 +24,8 @@
 }
 
 .form__button {
-    width: 30%;
+    width: 40%;
+    margin-left: 20px;
     padding: 5px;
     border-radius: 10px;
     border: 2px solid #c79600;
@@ -40,6 +41,7 @@
 }
 
 .form__button--clearButton {
-    width: 65%;
+    width: 40%;
     float: right;
+    margin-right: 20px;
 }

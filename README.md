@@ -6,7 +6,7 @@
 
 Use the originally designed calculator converting one currency to another! By selecting wanted currency the calculator shows its current price and later on allows to esitmate the amount of exchanged money.
 
-![app](screenshot.png)
+![app](images/screenshot.png)
 
 ## Features
 
