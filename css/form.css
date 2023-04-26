@@ -4,7 +4,7 @@
     padding: 10px;
     border-radius: 10px;
     border: 2px solid #c79600;
-    background-color: rgba(0, 0, 0, 0.811);
+    background-color: #000000cf;
 }
 
 .form__positions {
@@ -20,7 +20,7 @@
     margin: 5px;
     border-radius: 10px;
     border: 2px solid #c79600;
-    background-color: azure;
+    background-color: #f0ffff;
 }
 
 .form__button {

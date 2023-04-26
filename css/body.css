@@ -6,12 +6,12 @@
 
 .body__container {
     max-width: 500px;
-    color: azure;
+    color: #f0ffff;
     margin: 0 auto;
 }
 
 
 .body__legend {
-    color: rgba(0, 0, 0, 0.811);
+    color: #000000cf;
     text-align: center;
 }

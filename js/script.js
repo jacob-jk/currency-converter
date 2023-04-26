@@ -2,55 +2,56 @@
     const currencyElement = document.querySelector(".js-currency");
     const rateElement = document.querySelector(".js-rate");
 
-const rateCalculator = () => {
-    const euroCurrency = 4.69;
-    const dollarCurrency = 4.32;
-    const poundCurrency = 5.33;
+    const getCurrencyRate = (currency) => {
+        const rateEuro = 4.69;
+        const rateDollar = 4.32;
+        const ratePound = 5.33;
 
-    currencyElement.addEventListener("input", (event) => {
+        switch (currency) {
+            case "euro":
+                return rateEuro;
+
+            case "dolar":
+                return rateDollar;
+
+            case "funt":
+                return ratePound;
+        }
+    }
+
+    const onChangeCurrency = () => {
         const currency = currencyElement.value;
-         
-            switch(currency) {
-                case "euro":
-                    return rateElement.value = euroCurrency;
-            
-                case "dolar":
-                    return rateElement.value = dollarCurrency;
-            
-                case "funt":
-                    return rateElement.value = poundCurrency;
-            }
-        });
-}
+        const currencyRate = getCurrencyRate(currency);
 
-const updateOutcomeText = (outcome) => {
-    const outcomeElement = document.querySelector(".js-outcome");
-    outcomeElement.innerText = outcome.toFixed(2);
+        rateElement.value = currencyRate;
+    }
 
-}
+    const updateOutcomeText = (outcome) => {
+        const outcomeElement = document.querySelector(".js-outcome");
+        outcomeElement.innerText = outcome.toFixed(2);
+    }
 
-const onFormSubmit = (event) => {
-    event.preventDefault();
+    const onFormSubmit = (event) => {
+        event.preventDefault();
 
-    const amountElement = document.querySelector(".js-amount");
-    
-    const amount = +amountElement.value;
-    const rate = rateElement.value; 
-    const outcome = amount * rate 
+        const amountElement = document.querySelector(".js-amount");
 
-    updateOutcomeText(outcome);
-    
-}
+        const amount = +amountElement.value;
+        const rate = rateElement.value;
+        const outcome = amount * rate
 
-const init = () => {
-    const formElement = document.querySelector(".js-form");
-    
-    formElement.addEventListener("submit", (onFormSubmit)
-    );
+        updateOutcomeText(outcome);
+    }
 
-rateCalculator();
-}
+    const init = () => {
+        const formElement = document.querySelector(".js-form");
 
-init();
+        formElement.addEventListener("submit", (onFormSubmit));
+        currencyElement.addEventListener("input", onChangeCurrency);
+
+        updateRate();
+    }
+
+    init();
 
 }
