@@ -1,0 +1,11 @@
+.container {
+    max-width: 500px;
+    color: #f0ffff;
+    margin: 0 auto;
+}
+
+
+.container__legend {
+    color: #000000cf;
+    text-align: center;
+}
